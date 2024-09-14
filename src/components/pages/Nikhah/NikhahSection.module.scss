@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Kindentosca";
+  src: url("../../../assets/Fonts/Kindentosca.woff2"),
+    url("../../../assets/Fonts/Kindentosca.woff");
+  font-weight: 500;
+  font-style: italic;
+}
+.NikhahSection {
+  position: relative;
+  max-width: 900px;
+  width: 100%;
+  height: auto;
+  background-color: #FFF;
+  color: gold;
+  right: 0;
+  left: 0;
+  .back {
+    position: absolute;
+    z-index: 0;
+    max-width: 900px;
+    width: 100%;
+    max-height: 1100px;
+    height: 120vw;
+    @media (max-width: 631px) {
+      height: 757px;
+    }
+  }
+  h1 {
+    max-width: 500px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(38px, 7vw, 64px);
+    z-index: 110;
+    font-family: "Kindentosca";
+  }
+  .content {
+    background-color: #fff;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    margin: 0 auto 25px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-height: 1100px;
+    height: 120vw;
+    padding: 0 clamp(10px, 2vw, 25px) clamp(10px, 2vw, 25px)
+      clamp(10px, 2vw, 25px);
+    @media (max-width: 631px) {
+      height: 757px;
+    }
+    h1 {
+      width: 100%;
+      font-size: clamp(32px, 5vw, 64px);
+      font-weight: 550;
+      margin-top: clamp(30px, 4vw, 70px);
+      text-align: center;
+    }
+    p {
+      max-width: 400px;
+      width: 100%;
+      font-size: clamp(16px, 3vw, 24px);
+      font-weight: 350;
+      text-align: center;
+      margin: clamp(32px, 6vw, 100px);
+    }
+    .name {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 800px;
+      width: 100%;
+      max-height: 100vh;
+      z-index: 100;
+
+      .we {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        .floral1 {
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          max-width: 383px;
+          width: 100%;
+          // max-height: 402px;
+          // height: 200px;
+          margin-bottom: 60px;
+          gap: 15px;
+          h1 {
+            font-family: sans-serif;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 94px;
+            margin-top: 0;
+            border-bottom: 2px solid gold;
+            width: 30px;
+            color: gold;
+            text-align: center;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 20px;
+            padding-bottom: 20px;
+          }
+          p {
+            color: gold;
+            margin: 0;
+            font-size: 40px;
+            font-family: "Kindentosca";
+          }
+          h2 {
+            color: #000;
+            position: relative;
+            font-size: clamp(30px, 2vw, 36px);
+            font-family: "Kindentosca";
+            font-weight: 300;
+          }
+        }
+        .date {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          margin: 20px;
+          filter: drop-shadow(1px 1px 20px yellow);
+
+          h2 {
+            width: 200px;
+            border-top: 2px solid gold;
+            border-bottom: 2px solid gold;
+            text-align: center;
+            font-size: clamp(28px, 2vw, 42px);
+            font-weight: 400;
+          }
+          .day {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 0 10px;
+            height: 100px;
+            // gap: ;
+            border-left: 2px solid gold;
+            border-right: 2px solid gold;
+            h3 {
+              font-size: clamp(38px, 3vw, 42px);
+              font-weight: 400;
+              text-align: center;
+            }
+            p {
+              height: auto;
+              margin: 0;
+              text-align: center;
+              font-size: clamp(14px, 2vw, 24px);
+              font-weight: 400;
+            }
+          }
+          @media (max-width: 1051px) {
+            display: none;
+          }
+        }
+        .dateCopy {
+          filter: drop-shadow(1px 1px 20px yellow);
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          margin-bottom: 40px;
+          h2 {
+            // max-width: 150px;
+            width: 100px;
+            border-top: 1px solid gold;
+            border-bottom: 1px solid gold;
+            text-align: center;
+            font-size: clamp(22px, 2vw, 42px);
+            font-weight: 400;
+          }
+          .day {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            padding: 0 10px;
+            // gap: ;
+            border-left: 1px solid gold;
+            border-right: 1px solid gold;
+            h3 {
+              font-size: clamp(38px, 3vw, 42px);
+              font-weight: 400;
+              text-align: center;
+            }
+            p {
+              height: auto;
+              margin: 0;
+              text-align: center;
+              font-size: clamp(24px, 2vw, 24px);
+              font-weight: 400;
+            }
+          }
+          @media (min-width: 1052px) {
+            display: none;
+          }
+        }
+        .time {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          margin-bottom: 40px;
+          @media (max-width: 1051px) {
+            display: none;
+          }
+          h4 {
+            font-size: 24px;
+            font-weight: 300;
+          }
+        }
+        .timeCopy {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          margin-bottom: 40px;
+          @media (min-width: 1052px) {
+            display: none;
+          }
+          h4 {
+            font-size: 24px;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
