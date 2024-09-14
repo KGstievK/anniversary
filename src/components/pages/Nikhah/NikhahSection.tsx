@@ -11,7 +11,7 @@ const NikhahSection = () => {
     <section className={scss.NikhahSection}>
       <div className="container">
         {/* <Image className={scss.back} src={back} alt="" /> */}
-        <h1>Юбилей</h1>
+        <h1>Белгилүү жашка</h1>
         <div className={scss.content}>
           <div className={scss.name}>
             <div className={scss.we}>

@@ -8,7 +8,7 @@ const playfair_display = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ЧАКЫРУУ",
-  description: "КЫЗ УЗАТУУ",
+  description: "Белгилүү жаш",
 };
 
 export default function RootLayout({
