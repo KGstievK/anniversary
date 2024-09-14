@@ -39,6 +39,7 @@ const GuestData: FC = () => {
     setGuests(data);
   };
 
+  
   const deleteTodo = async (_id: number) => {
     const { data } = await axios.delete(`${url}/Kutman-and-Aijan/${_id}`);
     setGuests(data);
@@ -55,6 +56,7 @@ const GuestData: FC = () => {
 
   useEffect(() => {
     fetchGuests();
+    handleComplete
   }, []);
 
   const attendingCount = guests.filter(guest => guest.dev === "Приду✅").length;

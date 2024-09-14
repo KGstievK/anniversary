@@ -51,7 +51,8 @@ const FormGuest = () => {
           "Content-Type": "application/json",
         },
       });
-
+      console.log(responseName, responsePartner);
+      
       const messageModel = (FormData: FormType) => {
         let messageTG = `КИМ: <b>${FormData.name}</b>\n`;
         messageTG += `ЖААРЫ: <b>${FormData.partner}</b>\n`;
