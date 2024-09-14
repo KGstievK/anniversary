@@ -1,11 +1,9 @@
 "use client";
-import Image from "next/image";
 import scss from "./Welcome.module.scss";
-import folor from "@/assets/Vector.svg";
-import { FC, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 
-const Welcome: FC= () => {
+const Welcome = () => {
   const [animation, setAnimation] = useState<boolean>(false);
 
   useEffect(() => {
@@ -22,10 +20,9 @@ const Welcome: FC= () => {
         <div className={scss.content}>
           <div className={scss.We}>
             <div className={scss.We_name}>
-             
+              <h1>Чакыруу</h1>
             </div>
           </div>
-          <h1>ЧАКЫРУУ</h1>
         </div>
       </div>
     </section>

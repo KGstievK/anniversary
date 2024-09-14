@@ -1,11 +1,11 @@
 "use client"
-import Dad from "./Dad/Dad"
 import FormGuest from "./FormGuest/FormGuest"
 import Gps from "./Gps/Gps"
 import Map from "./Map/Map"
 import NikhahSection from "./Nikhah/NikhahSection"
 import SoTimes from "./SoTime/SoTimes"
 import Timer from "./Timer/Timer"
+import Welcome from "./Welcome/Welcome"
 
 const Home = () => {
   return (
@@ -25,12 +25,12 @@ const Home = () => {
       filter: "drop-shadow(1px 1px 20px yellow)",
 
     }}>
+      <Welcome/>
       <NikhahSection/>
       <SoTimes/>
       <Timer/>
       <Gps/>
       <Map/>
-      {/* <Dad/> */}
       <FormGuest/>
     </div>
 
