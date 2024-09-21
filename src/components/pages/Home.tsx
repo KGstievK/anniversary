@@ -1,10 +1,11 @@
 "use client"
 import FormGuest from "./FormGuest/FormGuest"
 import Gps from "./Gps/Gps"
-import Map from "./Map/Map"
+// import Map from "./Map/Map"
 import NikhahSection from "./Nikhah/NikhahSection"
 import SoTimes from "./SoTime/SoTimes"
 import Timer from "./Timer/Timer"
+import Timing from "./Timing/Timing"
 import Welcome from "./Welcome/Welcome"
 
 const Home = () => {
@@ -16,13 +17,7 @@ const Home = () => {
       justifyContent: "flex-start",
       gap: '50px',
       position: "relative",
-      background: "#FFF",
-      margin: "20px 20px",
-      borderTop: "2px solid gold", 
-      borderLeft: "2px solid gold",
-      borderRight: "2px solid gold",
-      borderBottom: "2px solid gold",
-      filter: "drop-shadow(1px 1px 20px yellow)",
+    
 
     }}>
       <Welcome/>
@@ -30,7 +25,8 @@ const Home = () => {
       <SoTimes/>
       <Timer/>
       <Gps/>
-      <Map/>
+      <Timing/>
+      {/* <Map/> */}
       <FormGuest/>
     </div>
 

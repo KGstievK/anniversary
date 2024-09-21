@@ -1,5 +1,19 @@
 import scss from "./NikhahSection.module.scss";
-import { Oswald } from "next/font/google";
+import { Oswald, Montserrat, Playfair_Display } from "next/font/google";
+import bg from "@/assets/bg.jpg";
+import Image from "next/image";
+
+
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  // weight: "400", // Укажите нужный вес (например, 400)
+});
+
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  weight: "400", // Укажите нужный вес (например, 400)
+});
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -7,8 +21,14 @@ const NikhahSection = () => {
   return (
     <section className={scss.NikhahSection}>
       <div className="container">
-        {/* <Image className={scss.back} src={back} alt="" /> */}
-        <h1>Белгилүү жашка</h1>
+        <Image
+          className={scss.back}
+          src={bg}
+          alt=""
+          layout="fill"
+          objectFit="cover"
+        />
+        <h1 className={playfairDisplay.className}>Белгилүү</h1>
         <div className={scss.content}>
           <div className={scss.name}>
             <div className={scss.we}>
@@ -27,7 +47,6 @@ const NikhahSection = () => {
                 <h2 className={oswald.className}>ШАРШЕМБИ</h2>
               </div>
               <div className={scss.time}>
-                <h4 className={oswald.className}>17:00</h4>
               </div>
             </div>
           </div>
@@ -42,7 +61,6 @@ const NikhahSection = () => {
                 <h2 className={oswald.className}>ШАРШЕМБИ</h2>
               </div>
               <div className={scss.timeCopy}>
-                <h4 className={oswald.className}>17:00</h4>
               </div>
             </div>
           </div>
