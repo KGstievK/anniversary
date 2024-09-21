@@ -14,6 +14,8 @@ const NikhahSection = () => {
   return (
     <section className={scss.NikhahSection}>
       <div className="container">
+          <h1 className={playfairDisplay.className}>Белгилүү</h1>
+        <div className={scss.content}>
         <Image
           className={scss.back}
           src={bg}
@@ -21,8 +23,6 @@ const NikhahSection = () => {
           layout="fill"
           objectFit="cover"
         />
-        <h1 className={playfairDisplay.className}>Белгилүү</h1>
-        <div className={scss.content}>
           <div className={scss.name}>
             <div className={scss.we}>
               {/* <Image className={scss.floral1} src={floral1} alt="" /> */}
