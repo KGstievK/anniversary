@@ -1,7 +1,7 @@
 "use client"
 import FormGuest from "./FormGuest/FormGuest"
 import Gps from "./Gps/Gps"
-import HappyEnd from "./HappyEnd/HappyEnds"
+import HappyEnds from "./HappyEnd/HappyEnds"
 import NikhahSection from "./Nikhah/NikhahSection"
 import SoTimes from "./SoTime/SoTimes"
 import Timer from "./Timer/Timer"
@@ -23,7 +23,7 @@ const Home = () => {
       <Gps/>
       <Timing/>
       <FormGuest/>
-      <HappyEnd/>
+      <HappyEnds/>
     </div>
 
   )
