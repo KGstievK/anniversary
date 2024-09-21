@@ -1,11 +1,11 @@
 "use client"
-import FormGuest from "./FormGuest/FormGuest"
-import Gps from "./Gps/Gps"
-import HappyEnds from "./HappyEnd/HappyEnds"
-import NikhahSection from "./Nikhah/NikhahSection"
-import SoTimes from "./SoTime/SoTimes"
-import Timer from "./Timer/Timer"
-import Timing from "./Timing/Timing"
+// import FormGuest from "./FormGuest/FormGuest"
+// import Gps from "./Gps/Gps"
+// import HappyEnds from "./HappyEnd/HappyEnds"
+// import NikhahSection from "./Nikhah/NikhahSection"
+// import SoTimes from "./SoTime/SoTimes"
+// import Timer from "./Timer/Timer"
+// import Timing from "./Timing/Timing"
 import MaintenancePage from "./UnderMaintenance/MaintenancePage"
 
 const Home = () => {
