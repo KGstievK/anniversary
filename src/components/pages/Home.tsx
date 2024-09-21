@@ -1,13 +1,11 @@
 "use client"
 import FormGuest from "./FormGuest/FormGuest"
 import Gps from "./Gps/Gps"
-import HappyEnd from "./HappyEnd/HappyEnd"
-// import Map from "./Map/Map"
+import HappyEnd from "./HappyEnd/HappyEnds"
 import NikhahSection from "./Nikhah/NikhahSection"
 import SoTimes from "./SoTime/SoTimes"
 import Timer from "./Timer/Timer"
 import Timing from "./Timing/Timing"
-import Welcome from "./Welcome/Welcome"
 
 const Home = () => {
   return (
@@ -24,7 +22,6 @@ const Home = () => {
       <Timer/>
       <Gps/>
       <Timing/>
-      {/* <Map/> */}
       <FormGuest/>
       <HappyEnd/>
     </div>
