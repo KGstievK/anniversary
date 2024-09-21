@@ -1,0 +1,19 @@
+.UnderMaintenance {
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f8f9fa;
+    color: #333;
+      h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        font-size: 24px;
+      }
+  }
+}

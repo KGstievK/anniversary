@@ -6,6 +6,7 @@ import NikhahSection from "./Nikhah/NikhahSection"
 import SoTimes from "./SoTime/SoTimes"
 import Timer from "./Timer/Timer"
 import Timing from "./Timing/Timing"
+import MaintenancePage from "./UnderMaintenance/MaintenancePage"
 
 const Home = () => {
   return (
@@ -17,13 +18,14 @@ const Home = () => {
       // gap: '50px',
       // position: "relative",
     }}>
-      <NikhahSection/>
+      {/* <NikhahSection/>
       <SoTimes/>
       <Timer/>
       <Gps/>
       <Timing/>
       <FormGuest/>
-      <HappyEnds/>
+      <HappyEnds/> */}
+      <MaintenancePage/>
     </div>
 
   )
