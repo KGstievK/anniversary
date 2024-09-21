@@ -17,8 +17,6 @@ const Home = () => {
       justifyContent: "flex-start",
       gap: '50px',
       position: "relative",
-    
-
     }}>
       <Welcome/>
       <NikhahSection/>

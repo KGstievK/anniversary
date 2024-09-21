@@ -1,14 +1,9 @@
 "use client";
 
-import { Montserrat, Oswald, Playfair_Display } from "next/font/google";
+import { Oswald, Playfair_Display } from "next/font/google";
 import scss from "./Timer.module.scss";
 
 const oswald = Oswald({ subsets: ["latin"] });
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  // weight: "400", // Укажите нужный вес (например, 400)
-});
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],

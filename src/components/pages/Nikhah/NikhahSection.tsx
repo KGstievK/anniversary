@@ -1,14 +1,7 @@
 import scss from "./NikhahSection.module.scss";
-import { Oswald, Montserrat, Playfair_Display } from "next/font/google";
+import { Oswald, Playfair_Display } from "next/font/google";
 import bg from "@/assets/bg.jpg";
 import Image from "next/image";
-
-
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  // weight: "400", // Укажите нужный вес (например, 400)
-});
 
 const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
